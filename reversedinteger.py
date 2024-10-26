@@ -1,8 +1,12 @@
-'''Write a program that accepts a string as input, capitalizes the first letter of each
-word in the string, and then returns the result string.
+'''
+Write a program that takes an integer as input and returns an integer with
+reversed digit ordering.
 Examples:
-"hi"=> returns "Hi"
-"i love programming"=> returns "I Love Programming" '''
+For input 500, the program should return 5.
+For input -56, the program should return -65.
+For input -90, the program should return -9.
+For input 91, the program should return 19.
+'''
 def reverse_integer(n):
     reversed_str = str(abs(n))[::-1]
     reversed_int = int(reversed_str)
